@@ -1,10 +1,9 @@
 echo ================================================================================
 echo ================================================================================
 echo ================================================================================
-echo DGideas CentOS7 Install Command
+echo DGideas CentOS7 Install Command (Build July,2015)
 echo + PHP + Python3 + Nodejs + sl + wget + gcc + ppp + pptpd
 echo Powered By DGideas
-echo Total Step 21
 echo Thanks Github and sinaapp cloud!
 echo ================================================================================
 yum update -y

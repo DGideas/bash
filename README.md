@@ -4,7 +4,7 @@
     
 In order to excuse this action in BACKGROUND, you also can use:
     
-    cd && wget https://github.com/DGideas/bash/raw/master/centos7.sh && nohup bash centos7.sh
+    cd && wget https://github.com/DGideas/bash/raw/master/centos7n.sh && nohup bash centos7n.sh
     
 #CentOS6 Series
         
@@ -12,7 +12,7 @@ In order to excuse this action in BACKGROUND, you also can use:
     
 In order to excuse this action in BACKGROUND, you also can use:
     
-    cd && wget https://github.com/DGideas/bash/raw/master/centos6.sh && nohup bash centos6.sh
+    cd && wget https://github.com/DGideas/bash/raw/master/centos6n.sh && nohup bash centos6n.sh
     
 #Ubuntu14.04
     
@@ -20,5 +20,5 @@ In order to excuse this action in BACKGROUND, you also can use:
     
 In order to excuse this action in BACKGROUND, you also can use:
     
-    cd && wget https://github.com/DGideas/bash/raw/master/ubuntu14.sh && nohup bash ubuntu14.sh
+    cd && wget https://github.com/DGideas/bash/raw/master/ubuntu14n.sh && nohup bash ubuntu14n.sh
     

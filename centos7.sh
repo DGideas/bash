@@ -1,7 +1,7 @@
 echo ================================================================================
 echo ================================================================================
 echo ================================================================================
-echo DGideas CentOS7 Install Command (Build July,2015)
+echo DGideas CentOS7 Install Command Build July,2015
 echo + PHP + Python3 + Nodejs + sl + wget + gcc + ppp + pptpd
 echo Powered By DGideas
 echo Thanks Github and sinaapp cloud!

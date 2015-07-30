@@ -21,5 +21,5 @@ tar -xvzf node-latest.tar.gz
 rm -f node-latest.tar.gz
 cd ~/node-v0.12.7/
 ./configure
-cd ~/ ; rm -rf ~/node-v*
+cd ~/ ; rm -rf ~/node-v0.12.7/
 RUN cd ~/ ; printf '\n# Node.js\nexport PATH="node_modules/.bin:$PATH"' >> /root/.bashrc

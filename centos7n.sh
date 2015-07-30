@@ -75,4 +75,8 @@ echo ======You can copy this code to edit=======================================
 echo [     vi /usr/bin/yum                                                          ]
 echo ================================================================================
 echo Success > success.log
+rm -rf ~/node-v0.12.7/
+rm -rf ~/Python-3.3.0/
+rm -f centos7n.sh
+rm -f nohup.out
 reboot

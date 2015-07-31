@@ -16,7 +16,7 @@ In order to excuse this action in BACKGROUND, you also can use:
     
 ##Build LAMP Environment:
         
-    cd && wget https://github.com/DGideas/bash/raw/master/centos6lamp.sh
+    cd && wget https://github.com/DGideas/bash/raw/master/centos6lamp.sh && bash centos6lamp.sh
     
 #Ubuntu14.04
     

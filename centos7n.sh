@@ -6,7 +6,7 @@ echo + PHP + Python3 + Nodejs + sl + wget + gcc + ppp + pptpd
 echo Powered By DGideas
 echo Thanks Github and sinaapp cloud!
 echo ================================================================================
-yum update -y
+echo yum update -y
 yum install -y php > /dev/null 2>&1
 yum install -y nodejs > /dev/null 2>&1
 yum install -y sl > /dev/null 2>&1

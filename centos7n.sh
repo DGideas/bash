@@ -6,7 +6,6 @@ echo + PHP + Python3 + Nodejs + sl + wget + gcc + ppp + pptpd
 echo Powered By DGideas
 echo Thanks Github and sinaapp cloud!
 echo ================================================================================
-echo yum update -y
 yum install -y php > /dev/null 2>&1
 yum install -y nodejs > /dev/null 2>&1
 yum install -y sl > /dev/null 2>&1
@@ -53,19 +52,7 @@ yum install -y pptpd > /dev/null 2>&1
 echo ===============================Successfully installed VPNs tools================
 echo =============================Install Nodejs=====================================
 cd
-wget https://github.com/DGideas/mirror/raw/master/node-latest.tar.gz > /dev/null 2>&1
-tar -xvzf node-latest.tar.gz > /dev/null 2>&1
-rm -f node-latest.tar.gz > /dev/null 2>&1
-cd ~/node-v0.12.7/ > /dev/null 2>&1
-echo ===============================Configure Nodejs...==============================
-./configure > /dev/null 2>&1
-echo ================================================================================
-echo Build Nodejs...Please wait a moment, sit and relax...
-echo ================================================================================
-echo ===========================Making...============================================
-make > /dev/null 2>&1
-echo ===========================Make install...======================================
-make install > /dev/null 2>&1
+yum install -y nodejs
 echo ================================================================================
 echo ================================================================================
 echo ===========================[IMPORTANT]==========================================
@@ -75,7 +62,6 @@ echo ======You can copy this code to edit=======================================
 echo [     vi /usr/bin/yum                                                          ]
 echo ================================================================================
 echo Success > success.log
-rm -rf ~/node-v0.12.7/
 rm -rf ~/Python-3.3.0/
 rm -f centos7n.sh
 rm -f nohup.out

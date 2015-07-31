@@ -6,7 +6,7 @@ service httpd start
 service mysqld start
 wget https://github.com/mongodb/mongo-php-driver/archive/master.zip
 unzip master.zip
-cd master/
+cd mongo-php-driver-master/
 phpize
 ./configure
 make
@@ -15,4 +15,4 @@ cd
 echo Success > success.log
 rm -f centos6lamp.sh
 rm -f master.zip
-rm -rf ~/master/
+rm -rf ~/mongo-php-driver-master/

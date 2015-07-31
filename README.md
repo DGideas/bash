@@ -14,6 +14,10 @@ In order to excuse this action in BACKGROUND, you also can use:
     
     cd && wget https://github.com/DGideas/bash/raw/master/centos6n.sh && nohup bash centos6n.sh
     
+##Build LAMP Environment:
+        
+    cd && wget https://github.com/DGideas/bash/raw/master/centos6lamp.sh
+    
 #Ubuntu14.04
     
     cd && wget https://github.com/DGideas/bash/raw/master/ubuntu14.sh && bash ubuntu14.sh && rm -f ubuntu14.sh

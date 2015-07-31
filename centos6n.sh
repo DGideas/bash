@@ -61,5 +61,6 @@ echo ======You can copy this code to edit=======================================
 echo [     vi /usr/bin/yum                                                          ]
 echo ================================================================================
 echo Success > success.log
+rm -rf ~/Python-3.3.0/
 rm -f centos6n.sh
 rm -f nohup.out

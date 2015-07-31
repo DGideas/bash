@@ -16,3 +16,6 @@ echo Success > success.log
 rm -f centos6lamp.sh
 rm -f master.zip
 rm -rf ~/mongo-php-driver-master/
+echo ==========================IMPORTANT==========================
+echo Please follow this introduction to change php.ini:
+echo http://php.net/manual/zh/mongo.installation.php#mongo.installation.manual

@@ -7,7 +7,6 @@ echo Powered By DGideas
 echo Thanks Github and sinaapp cloud!
 echo ================================================================================
 yum install -y php > /dev/null 2>&1
-yum install -y nodejs > /dev/null 2>&1
 yum install -y sl > /dev/null 2>&1
 yum install -y wget > /dev/null 2>&1
 cd
@@ -25,7 +24,7 @@ echo ===============================Download Successfully!!!====================
 echo ===============================Upzip Package...Please wait======================
 tar -jxvf Python-3.3.0.tar.bz2 > /dev/null 2>&1
 rm -f Python-3.3.0.tar.bz2 > /dev/null 2>&1
-cd Python-3.3.0 > /dev/null 2>&1
+cd Python-3.3.0/ > /dev/null 2>&1
 echo ===============================Configure Python...==============================
 ./configure > /dev/null 2>&1
 echo ================================================================================
@@ -36,13 +35,13 @@ make all > /dev/null 2>&1
 echo ===============================Make Install...==================================
 make install > /dev/null 2>&1
 echo ===============================Make Clean...====================================
-make clean > /dev/null
+make clean > /dev/null 2>&1
 echo ===============================Make Distclean...================================
 make distclean > /dev/null 2>&1
 /usr/local/bin/python3 -V
 echo ===============================Install Python 3 Successfully====================
-mv /usr/bin/python /usr/bin/python2.4
-ln -s /usr/local/bin/python3.3 /usr/bin/python
+mv /usr/bin/python /usr/bin/python2.4 > /dev/null 2>&1
+ln -s /usr/local/bin/python3.3 /usr/bin/python > /dev/null 2>&1
 python -V
 echo ================================================================================
 echo ===============================Install Vpn tools...=============================
@@ -52,7 +51,7 @@ yum install -y pptpd > /dev/null 2>&1
 echo ===============================Successfully installed VPNs tools================
 echo =============================Install Nodejs=====================================
 cd
-yum install -y nodejs
+yum install -y nodejs > /dev/null 2>&1
 echo ================================================================================
 echo ================================================================================
 echo ===========================[IMPORTANT]==========================================
@@ -62,6 +61,5 @@ echo ======You can copy this code to edit=======================================
 echo [     vi /usr/bin/yum                                                          ]
 echo ================================================================================
 echo Success > success.log
-rm -rf ~/Python-3.3.0/
 rm -f centos7n.sh
 rm -f nohup.out

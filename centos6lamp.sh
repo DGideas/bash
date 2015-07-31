@@ -3,3 +3,5 @@ chkconfig httpd on
 chkconfig mysqld on
 service httpd start
 service mysqld start
+echo Success > success.log
+rm -f centos6lamp.sh

@@ -10,6 +10,7 @@ apt-get install -y php > /dev/null 2>&1
 apt-get install -y nodejs > /dev/null 2>&1
 apt-get install -y sl > /dev/null 2>&1
 apt-get install -y wget > /dev/null 2>&1
+apt-get install -y sysstat > /dev/null 2>&1
 cd
 echo ================================================================================
 echo Getting Wget Python-3.3.0.tar.bz2 From DGideas GitHub Mirror...

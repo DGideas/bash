@@ -26,3 +26,6 @@ In order to excuse this action in BACKGROUND, you also can use:
     
     cd && wget https://github.com/DGideas/bash/raw/master/ubuntu14n.sh && nohup bash ubuntu14n.sh
     
+#CMS
+    
+    cd && wget https://raw.githubusercontent.com/DGideas/bash/master/sysmon.sh && nohup bash sysmon.sh

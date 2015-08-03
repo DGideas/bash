@@ -9,6 +9,7 @@ echo ===========================================================================
 yum install -y php > /dev/null 2>&1
 yum install -y sl > /dev/null 2>&1
 yum install -y wget > /dev/null 2>&1
+yum install -y sysstat > /dev/null 2>&1
 cd
 echo ================================================================================
 echo ===============================Install Vpn tools...=============================

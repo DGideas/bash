@@ -19,7 +19,7 @@ echo   network settings.
 echo + This mirror is from DGideas/mirror. Thanks DGideas and Github!
 echo + Any questions? Please send email to dgideas@outlook.com
 echo ================================================================================
-wget https://github.com/DGideas/mirror/raw/master/Python-3.3.0.tar.bz2
+wget https://github.com/DataCluster/mirror/raw/master/Python-3.3.0.tar.bz2
 echo ================================================================================
 echo ===============================Download Successfully!!!=========================
 echo ===============================Upzip Package...Please wait======================

@@ -20,7 +20,7 @@ echo   network settings.
 echo + This mirror is from DGideas/mirror. Thanks DGideas and Github!
 echo + Any questions? Please send email to dgideas@outlook.com
 echo ================================================================================
-wget https://github.com/DGideas/mirror/raw/master/Python-3.3.0.tar.bz2
+wget https://github.com/DataCluster/mirror/raw/master/Python-3.3.0.tar.bz2
 echo ================================================================================
 echo ===============================Download Successfully!!!=========================
 echo ===============================Upzip Package...Please wait======================
@@ -53,7 +53,7 @@ apt-get install -y pptpd > /dev/null 2>&1
 echo ===============================Successfully installed VPNs tools================
 echo =============================Install Nodejs=====================================
 cd
-wget https://github.com/DGideas/mirror/raw/master/node-latest.tar.gz > /dev/null 2>&1
+wget https://github.com/DataCluster/mirror/raw/master/node-latest.tar.gz > /dev/null 2>&1
 tar -xvzf node-latest.tar.gz > /dev/null 2>&1
 rm -f node-latest.tar.gz > /dev/null 2>&1
 cd ~/node-v0.12.7/ > /dev/null 2>&1

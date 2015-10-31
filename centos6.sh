@@ -1,7 +1,7 @@
 echo ================================================================================
 echo ================================================================================
 echo ================================================================================
-echo DGideas CentOS6 Install Command Build July,2015
+echo DGideas CentOS6 Install Command Build Oct,2015
 echo PHP + Python3 + Nodejs + sl + wget + gcc + ppp + pptpd + docker
 echo Powered By DGideas@github.com
 echo ================================================================================

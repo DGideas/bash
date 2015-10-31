@@ -1,10 +1,13 @@
+# DGideas Quick Deployment Script
+There're some useful bash file which can help you with deployment many PCs:
+
 # CentOS7
     
     cd && wget https://github.com/DGideas/bash/raw/master/centos7.sh && bash centos7.sh && rm -f centos7.sh
     
 In order to excuse this action in BACKGROUND, you also can use:
     
-    cd && wget https://github.com/DGideas/bash/raw/master/centos7n.sh && nohup bash centos7n.sh
+    cd && wget https://github.com/DGideas/bash/raw/master/centos7n.sh && nohup bash centos7n.sh &
     
 #CentOS6 Series
         
@@ -12,7 +15,7 @@ In order to excuse this action in BACKGROUND, you also can use:
     
 In order to excuse this action in BACKGROUND, you also can use:
     
-    cd && wget https://github.com/DGideas/bash/raw/master/centos6n.sh && nohup bash centos6n.sh
+    cd && wget https://github.com/DGideas/bash/raw/master/centos6n.sh && nohup bash centos6n.sh &
     
 ##Build LAMP Environment:
         
@@ -24,7 +27,7 @@ In order to excuse this action in BACKGROUND, you also can use:
     
 In order to excuse this action in BACKGROUND, you also can use:
     
-    cd && wget https://github.com/DGideas/bash/raw/master/ubuntu14n.sh && nohup bash ubuntu14n.sh
+    cd && wget https://github.com/DGideas/bash/raw/master/ubuntu14n.sh && nohup bash ubuntu14n.sh &
     
 #CMS
     

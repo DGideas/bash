@@ -2,12 +2,12 @@ echo ===========================================================================
 echo ================================================================================
 echo ================================================================================
 echo DGideas CentOS6 Install Command Build July,2015
-echo + PHP + Python3 + Nodejs + sl + wget + gcc + ppp + pptpd
-echo Powered By DGideas
-echo Thanks Github.
+echo PHP + Python3 + Nodejs + sl + wget + gcc + ppp + pptpd + docker
+echo Powered By DGideas@github.com
 echo ================================================================================
 yum install -y php > /dev/null 2>&1
 yum install -y nodejs > /dev/null 2>&1
+yum install -y docker-io > /dev/null 2>&1
 yum install -y sl > /dev/null 2>&1
 yum install -y wget > /dev/null 2>&1
 yum install -y sysstat > /dev/null 2>&1

@@ -22,14 +22,14 @@ conn L2TP-PSK-noNAT
     ikelifetime=8h
     keylife=1h
     type=transport
-    left=YOUR.SERVER.IP.ADDRESS
+    left=47.88.9.4
     leftprotoport=17/1701
     right=%any
     rightprotoport=17/%any
 EOF
 rm -r /etc/ipsec.secrets
 cat >>/etc/ipsec.secrets<<EOF
-YOUR.SERVER.IP.ADDRESS %any: PSK "YourSharedSecret"
+47.88.9.4 %any: PSK "rsa"
 EOF
 for each in /proc/sys/net/ipv4/conf/*
 do

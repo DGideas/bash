@@ -39,5 +39,6 @@ done
 #若PPTP部分设置过，则下面不必在设置
 sed -i 's/net.ipv4.ip_forward = 0/net.ipv4.ip_forward = 1/g' /etc/sysctl.conf
 sysctl -p
+echo 1 > /proc/sys/net/ipv4/ip_forward
 service ipsec restart
 ipsec verify

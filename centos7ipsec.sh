@@ -1,4 +1,4 @@
-yum install make gcc gmp-devel bison flex openswan
+yum install -y make gcc gmp-devel bison flex openswan
 mv /etc/ipsec.conf /etc/ipsec.conf.bak
 cat >>/etc/ipsec.conf<<EOF
 #ipsec.conf

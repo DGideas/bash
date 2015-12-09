@@ -2,7 +2,7 @@ echo ===========================================================================
 echo ================================================================================
 echo ================================================================================
 echo DGideas CentOS6 Install Command Build Oct,2015
-echo PHP + Python3 + Nodejs + sl + wget + gcc + ppp + pptpd + docker
+echo PHP + Python3 + Nodejs + sl + wget + gcc + ppp + pptpd + docker + vim
 echo Powered By DGideas@github.com
 echo ================================================================================
 yum install -y php > /dev/null 2>&1
@@ -10,6 +10,7 @@ yum install -y docker-io > /dev/null 2>&1
 yum install -y sl > /dev/null 2>&1
 yum install -y wget > /dev/null 2>&1
 yum install -y sysstat > /dev/null 2>&1
+yum install -y vim > /dev/null 2>&1
 cd
 echo ================================================================================
 echo Getting Wget Python-3.3.0.tar.bz2 From DGideas GitHub Mirror...
